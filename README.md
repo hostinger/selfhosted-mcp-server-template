@@ -1,6 +1,8 @@
-# Remote MCP Server - Professional SEO Checker
+# Remote MCP Server – Professional SEO Checker
 
-This is a **remote MCP server** for comprehensive SEO analysis that can be deployed to Hostinger or other hosting platforms. This template demonstrates a comprehensive SEO analysis tool that performs detailed website audits including title tags, meta descriptions, header structure, content analysis, image optimization, technical SEO, and social media tags. Built with the modern FastMCP framework for reliable and professional SEO insights that you can use from any MCP-compatible client (Claude Desktop, Cursor, Windsurf, etc.) without local installation.
+This repository provides a production-ready **remote MCP server** for running full-stack SEO audits via any compatible client (like Claude Desktop, Cursor, or Windsurf). Powered by the `FastMCP` framework, it delivers structured insights across on-page SEO, technical health, and social metadata — all without requiring local setup.
+
+Use this as a starting point to **deploy your own MCP server** on Hostinger or any other cloud/VPS platform. The codebase is modular, easy to extend, and includes clear examples for custom request handling, making it a solid foundation for your own MCP tools.
 
 ## Deploy this Remote MCP Server to Hostinger
 [![Deploy to Hostinger](https://img.shields.io/badge/Deploy%20to-Hostinger-673AB8?style=for-the-badge&logo=hostinger)](https://www.hostinger.com/vps-hosting)
@@ -242,6 +244,8 @@ Features:
 
 ## Usage Examples
 
+<img width="494" height="569" alt="test-run" src="https://github.com/user-attachments/assets/311337d8-b444-44c1-8eca-b052a04ecb8b" />
+
 ### Comprehensive Analysis
 "Analyze the SEO of my-website.com"
 
@@ -307,31 +311,6 @@ Features:
 • Consider adding more internal links
 • Optimize images for faster loading
 ```
-
-## Technical Architecture
-
-### Core Components
-
-- **SEOChecker Class**: Main analysis engine
-- **FastMCP Framework**: Modern MCP server implementation  
-- **Async HTTP Client**: Non-blocking web requests with aiohttp
-- **BeautifulSoup Parser**: Robust HTML parsing and analysis
-- **Multi-layered Analysis**: Comprehensive SEO factor evaluation
-
-### Analysis Methodology
-
-1. **Page Retrieval**: Fetch webpage with performance timing
-2. **HTML Parsing**: Extract and analyze all SEO-relevant elements
-3. **Multi-factor Analysis**: Evaluate 6+ key SEO categories
-4. **Scoring Algorithm**: Weighted scoring based on SEO best practices
-5. **Recommendation Engine**: Generate actionable improvement suggestions
-
-### Performance Features
-
-- ⚡ **Async Operations**: Non-blocking concurrent analysis
-- 🔄 **Timeout Handling**: Graceful handling of slow websites
-- 📊 **Comprehensive Metrics**: Detailed timing and performance data
-- 🛡️ **Error Resilience**: Robust error handling and recovery
 
 ## Troubleshooting
 
