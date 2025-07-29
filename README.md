@@ -1,21 +1,9 @@
 # Remote MCP Server - Professional SEO Checker
 
-This is a **remote MCP server** for comprehensive SEO analysis that can be deployed to Hostinger or other hosting platforms. Remote MCP servers allow you to deploy SEO analysis functionality to the cloud and use it from any MCP-compatible client (Claude Desktop, Cursor, Windsurf, etc.) without local installation.
-
-## This Specific Implementation: Professional SEO Analyzer
-
-This template demonstrates a comprehensive SEO analysis tool that performs detailed website audits including title tags, meta descriptions, header structure, content analysis, image optimization, technical SEO, and social media tags. Built with the modern FastMCP framework for reliable and professional SEO insights.
+This is a **remote MCP server** for comprehensive SEO analysis that can be deployed to Hostinger or other hosting platforms. This template demonstrates a comprehensive SEO analysis tool that performs detailed website audits including title tags, meta descriptions, header structure, content analysis, image optimization, technical SEO, and social media tags. Built with the modern FastMCP framework for reliable and professional SEO insights that you can use from any MCP-compatible client (Claude Desktop, Cursor, Windsurf, etc.) without local installation.
 
 ## Deploy this Remote MCP Server to Hostinger
-[![Deploy to Hostinger](https://img.shields.io/badge/Deploy%20to-Hostinger-673AB8?style=for-the-badge&logo=hostinger)](https://hostinger.com/deploy?repo=https://github.com/hostinger/selfhosted-mcp-server-template)
-
-## Quick Start (1-Click Deploy)
-
-1. **Deploy to Hostinger** using the button above (1-click deploy)
-2. **Get your deployed URL** from Hostinger (e.g., `https://your-app.hstgr.cloud`)
-3. **Add to your MCP client** using the URL + `/mcp` endpoint
-
-![SEO Analysis Example](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=SEO+Analysis+Dashboard)
+[![Deploy to Hostinger](https://img.shields.io/badge/Deploy%20to-Hostinger-673AB8?style=for-the-badge&logo=hostinger)](https://www.hostinger.com/vps-hosting)
 
 ## Features
 
@@ -30,22 +18,7 @@ This template demonstrates a comprehensive SEO analysis tool that performs detai
 
 ## Using Your Remote MCP Server
 
-### Option 1: Use Our Hosted Remote MCP Server (Recommended)
-
-Add our hosted server to your MCP client:
-
-```json
-{
-  "mcpServers": {
-    "seo-checker": {
-      "url": "http://srv635784.hstgr.cloud:8080/mcp",
-      "description": "Professional SEO analysis and optimization recommendations"
-    }
-  }
-}
-```
-
-### Option 2: Deploy Your Own Instance (1-Click)
+### Option 1: Deploy Your Own Instance (1-Click)
 
 Use Hostinger's 1-click deploy to get your own instance:
 
@@ -66,16 +39,14 @@ Use Hostinger's 1-click deploy to get your own instance:
 }
 ```
 
-![MCP Client Configuration](https://via.placeholder.com/800x300/2d2d2d/ffffff?text=MCP+Client+Configuration)
-
-### Option 3: With FastMCP Development Tools
+### Option 2: With FastMCP Development Tools
 
 ```bash
 # Make sure your virtual environment is activated
 fastmcp dev local-seo-checker.py
 ```
 
-### Option 4: Configure Local MCP Server
+### Option 3: Configure Local MCP Server
 
 This MCP server works with Claude Desktop, Cursor, Windsurf, and other MCP-compatible applications.
 
