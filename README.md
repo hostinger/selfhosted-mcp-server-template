@@ -145,19 +145,7 @@ For other hosting platforms that support Docker:
 - Docker support on your hosting platform
 - Git repository with your code
 
-### Deployment Steps
-
-#### Method 1: Hostinger 1-Click Deploy (Recommended)
-
-Simply use the deploy button at the top of this README. Hostinger handles everything automatically including:
-- ✅ Docker environment setup
-- ✅ Dependency installation  
-- ✅ Port configuration
-- ✅ SSL certificate (HTTPS)
-- ✅ Automatic scaling
-- ✅ Live URL provisioning
-
-#### Method 2: Manual Docker Deployment (Other Platforms)
+#### Manual Docker Deployment (Other Platforms)
 
 1. **Connect to your server**
    ```bash
