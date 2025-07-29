@@ -157,19 +157,12 @@ Simply use the deploy button at the top of this README. Hostinger handles everyt
 
 #### Method 2: Manual Docker Deployment (Other Platforms)
 
-1. **Push your code to a Git repository**
-   ```bash
-   git add .
-   git commit -m "Initial SEO MCP server"
-   git push origin main
-   ```
-
-2. **Connect to your server**
+1. **Connect to your server**
    ```bash
    ssh root@your-server-ip
    ```
 
-3. **Clone and deploy**
+2. **Clone and deploy**
    ```bash
    # Install Docker if not present
    curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
@@ -182,26 +175,15 @@ Simply use the deploy button at the top of this README. Hostinger handles everyt
    docker-compose up -d --build
    ```
 
-4. **Configure firewall** (if needed)
+3. **Configure firewall** (if needed)
    ```bash
    ufw allow 8080/tcp
    ```
 
-5. **Test your deployment**
+4. **Test your deployment**
    ```bash
    curl http://your-server-ip:8080
    ```
-
-#### Method 3: Traditional Hosting (Shared/VPS)
-
-1. **Upload files to your hosting platform**
-2. **Create a Procfile** (if required):
-   ```
-   web: python remote-seo-checker.py
-   ```
-3. **Set environment variables**:
-   - `PORT=8080`
-4. **Install dependencies and run**
 
 ### Using Your Deployed Server
 
@@ -216,20 +198,6 @@ Once deployed, configure your MCP client:
     }
   }
 }
-```
-
-### Updating Your Deployment
-
-#### Hostinger (1-Click Updates)
-Hostinger automatically detects changes when you push to your main branch and redeploys your MCP server.
-
-#### Other Platforms (Manual Updates)
-To update your deployed server:
-
-```bash
-cd /path/to/your/server
-git pull origin main
-docker-compose up -d --build
 ```
 
 ## Available Tools
@@ -412,16 +380,10 @@ The SEO checker is designed to be easily extensible. You can add new analysis me
 3. Adding corresponding MCP tools
 4. Updating the scoring algorithm
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Support
 
 - 📖 **Documentation**: Check this README and code comments
 - 🐛 **Issues**: Report bugs via GitHub Issues
-- 💬 **Discussions**: Use GitHub Discussions for questions
-- 📧 **Contact**: [your-email@example.com]
 
 ---
 
