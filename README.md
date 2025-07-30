@@ -25,10 +25,9 @@ Use this as a starting point to **deploy your own MCP server** on Hostinger or a
 Use Hostinger's 1-click deploy to get your own instance:
 
 1. **Click the "Deploy to Hostinger" button** above
-2. **Connect your GitHub account** and select this repository
-3. **Hostinger automatically handles** the Docker setup and deployment
-4. **Get your deployed URL** (e.g., `https://your-app.hstgr.cloud`)
-5. **Add to your MCP client**:
+2. **Hostinger automatically handles** the Docker setup and deployment
+3. **Get your deployed URL** (e.g., `https://your-app.hstgr.cloud`)
+4. **Add to your MCP client**:
 
 ```json
 {
