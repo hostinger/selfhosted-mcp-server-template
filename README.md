@@ -5,7 +5,8 @@ This repository provides a production-ready **remote MCP server** for running fu
 Use this as a starting point to **deploy your own MCP server** on Hostinger or any other cloud/VPS platform. The codebase is modular, easy to extend, and includes clear examples for custom request handling, making it a solid foundation for your own MCP tools.
 
 ## Deploy this Remote MCP Server to Hostinger
-[![Deploy to Hostinger](https://img.shields.io/badge/Deploy%20to-Hostinger-673AB8?style=for-the-badge&logo=hostinger)](https://www.hostinger.com/vps/mcp-hosting)
+[![Deploy on Hostinger](https://assets.hostinger.com/vps/deploy.svg)](https://www.hostinger.com/vps/docker-hosting?compose_url=https://github.com/hostinger/selfhosted-mcp-server-template/)
+
 
 ## Features
 
